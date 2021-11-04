@@ -1,0 +1,69 @@
+.container-superior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-4 {
+  text-align: center;
+  color: #cecece;
+}
+
+.Image-movie {
+  width: 26rem;
+  height: 34rem;
+  transition: all 2s ease-out;
+}
+
+.Image-movie:hover {
+  transition: all 2s ease-out;
+  width: 36rem;
+  height: 44rem;
+}
+
+.container-movie {
+  margin-top: 4rem;
+  width: 60rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.subtitulo {
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+.h5 {
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.2rem;
+}
+
+.texto {
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  margin-top: 2rem;
+}
+

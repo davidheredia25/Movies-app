@@ -1,0 +1,111 @@
+.display-4 {
+  margin-top: 1em;
+  color: #cecece;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.input {
+  border-radius: 0.35em;
+}
+
+.form-container {
+  display: flex;
+  margin: 2em auto 1em;
+  align-items: center;
+}
+
+.form-container button {
+  margin-left: 20px;
+}
+.label {
+  padding-right: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+}
+.input {
+  height: 1.9rem;
+  width: 12rem;
+}
+
+.card-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 2rem;
+  padding: 1.5rem;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  border: none;
+  z-index: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 40px 40px 20px 4px rgba(206, 204, 204, 0.075);
+  top: -4px;
+  background-color: rgb(0, 0, 0);
+}
+
+.Image {
+  margin: 1rem;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+
+.button {
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  border: 0;
+  color: white;
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  background-color: #0a0a0b;
+  border-radius: 0.35em;
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.button:hover {
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: rgba(247, 247, 247, 0.473);
+}
