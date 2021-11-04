@@ -13,6 +13,5 @@ React-Redux App for Movies
 <img src="https://user-images.githubusercontent.com/74629753/140247146-f6844550-2fec-4bd1-be45-74dcb9f06e5f.PNG"/>
 <br> </br>
      
-<h2>npm install</h2>
-<br> </br>
-<h2>npm start To initialize the application</h2>
+<p>npm install</h2>
+<p>npm start to initialize the application</p>
